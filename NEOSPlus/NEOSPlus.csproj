@@ -5,8 +5,8 @@
     <AssemblyName>NEOSPlus</AssemblyName>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>10</LangVersion>
-    <Copyright>Copyright ©  2022</Copyright>
-    <Product>NEOSPlus</Product>
+    <Copyright>Copyright ©  2023</Copyright>
+    <Product>NEOSPlus Headless</Product>
   </PropertyGroup>
   <PropertyGroup>
     <NeosPath>$(MSBuildThisFileDirectory)NeosVR\</NeosPath>
@@ -41,25 +41,6 @@
       <HintPath>$(NeosPath)Neos_Data/Managed/System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
-    <Reference Include="UnityEngine">
-      <HintPath>$(NeosPath)Neos_Data/Managed/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AudioModule">
-      <HintPath>$(NeosPath)Neos_Data/Managed/UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>$(NeosPath)Neos_Data/Managed/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(NeosPath)Neos_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>$(NeosPath)Neos_Data/Managed/UnityEngine.ParticleSystemModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(NeosPath)Neos_Data/Managed/UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityNeos">
       <HintPath>$(NeosPath)Neos_Data/Managed/UnityNeos.dll</HintPath>
     </Reference>
